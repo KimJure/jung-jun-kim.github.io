@@ -50,10 +50,10 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Portfoio Details</h2>
+          <h2>Portfolio Details</h2>
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li>Portfoio Details</li>
+            <li>Portfolio Details</li>
           </ol>
         </div>
 
@@ -71,19 +71,36 @@
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/Bookdetail1.png" alt="">
+                  <img src="assets/img/portfolio/Musicdetail.png" alt="">
                   <h2>프로젝트 설명</h2>
                   <p>
-                    회원가입시 정규표현식을 통하여 문자열 포함여부 및 조건을 달아주었고 ajax 비동기 통신을 사용하여 아이디 중복확인을 구현하였습니다.
-                    또한 카카오주소API를 사용하여 사용자에 편리성을 높였습니다.
+                    스프링 시큐리티 passwordencoder 패스워드 암호화를 활용하여 회원가입시 데이터베이스에 사용자가 입력한 문자열이 아닌 암호화된 문자열로 변환하여 저장되고 로그인시 암호화된 문자열을 다시 일반 문자열로
+                    변환하여 사용자가 입력한 비밀번호와 맞는지 판단하도록 구현하였습니다.
                   </p>
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/Bookdetail2.png" alt="">
+                  <img src="assets/img/portfolio/Musicdetail2.png" alt="">
                   <h2>프로젝트 설명</h2>
                   <p>
-                    관리자용 홈페이지이며 로그인시 권한이 관리자인 아이디일 경우 해당 페이지로 이동하게 만들었으며 각종 카테고리를 관리할수있게 구현하였습니다.
+                    네이버 로그인시 기존 쿠션 회원정보와 연동하여 간편 로그인을 구현하였으며 카카오 로그인시 카카오 계정 정보를 서버에서 받아와 별도에 회원가입없이 사이트를 사용할수 있게 구현하였습니다.
+                  </p>
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/Musicdetail3.png" alt="">
+                  <h2>프로젝트 설명</h2>
+                  <p>
+                    카카오페이 정기결제 api를 활용하여 첫 결제후 데이터베이스에 다음 결제일 및 정기결제 해지까지 남은 개월 수를 저장한뒤 스케쥴러를 통해 하루하루 일 수를 카운팅하며 정기결제 날짜가 된
+                    회원은 첫 결제시 저장된 고유id를 추적하여 자동결제할수 있게 구현하였습니다.
+                  </p>
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/Musicdetail4.png" alt="">
+                  <h2>프로젝트 설명</h2>
+                  <p>
+                    문자 api를 활용하여 회원가입시 임의에 난수를 포함한 인증 문자를 발송하여 인증 절차를 구현하였습니다. <br>(문자 api는 유료서비스인 관계로 서버에서의 처리과정만 담았습니다)
                   </p>
                 </div>
 
@@ -94,17 +111,18 @@
 
           <div class="col-lg-4">
             <div class="portfolio-info">
-              <h3>도서대여 프로젝트</h3>
+              <h3>음악스트리밍 프로젝트</h3>
               <ul>
-                <li><strong>Project introduction</strong>: 신입 개발자로서에 첫 프로젝트였으며 3명이서 진행하였고 관리자 관련 기능 및 게시판,회원가입,로그인 부분을 맡았습니다. </li>
-                <li><strong>Project date</strong>: 06 June, 2023</li>
-                <li><strong>Project URL</strong>: <a href="https://github.com/KimJure/bookproject.git">https://github.com/KimJure/bookproject.git</a></li>
+                <li><strong>Project introduction</strong>: 학원 수료후 스스로에게 부족함을 느껴 시작한 1인프로젝트로 각종 api를 활용하고 이해하는것에 중점을 두었습니다. </li>
+                <li><strong>Project date</strong>: 09 June, 2023 ~</li>
+                <li><strong>Project URL</strong>: <a href="https://github.com/KimJure/MusciProject.git">https://github.com/KimJure/MusciProject.git</a></li>
               </ul>
             </div>
             <div class="portfolio-description">
               <h2>프로젝트 소감</h2>
               <p>
-                처음해본 프로젝트라 완성도도 떨어지고 미흡한점이 많았지만 다음엔 어떤식으로 해야할지 감을 잡을수있었고 특히 데이터베이스 설계부분에서 신경을 많이 써야한다는것을 깨닳은 프로젝트였습니다.
+                사용자 입장에서만 이용해봤던 기술들을 제가 구현할수있어 재미를 느낄수있었고 아무 생각없이 사용해왔던 것들이 복잡한 처리과정이 있다는걸 알수있었습니다.
+                아직 개발중인 프로젝트이기에 어떤 기술들을 사용할수있을지 기대도되며 스스로 발전중임을 느낄수있었습니다.
               </p>
             </div>
           </div>
