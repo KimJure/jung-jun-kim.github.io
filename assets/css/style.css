@@ -286,7 +286,8 @@ h6 {
 
 @media (min-width: 1024px) {
   #hero {
-    height: 50vh;
+    width: 100%;
+  height: 100vh;
     background-attachment: fixed;
   }
 }
